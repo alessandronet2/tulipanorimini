@@ -31,7 +31,7 @@ const allTranslations = {
       eyebrow: "Posizione",
       title: "Dove si trova",
       intro:
-        "L'Appartamento Il Tulipano si trova in una posizione strategica a Rimini, a pochi passi dal mare e ben collegato al centro storico.",
+        "L'Appartamento Il Tulipano si trova in una posizione strategica a Rimini, a pochi passi dal mare e ben collegato al centro storico, alla stazione, alla Fiera, a Marina Centro, al centro commerciale e all'aeroporto.",
       addressTitle: "Indirizzo",
       addressValue: "Via del Tulipano 18, 47923 Rimini (RN)",
       minutesTitle: "A pochi minuti",
@@ -55,12 +55,12 @@ const allTranslations = {
       trainMetroTitle: "Metromare",
       trainMetroText:
         "In alternativa, dalla stazione di Rimini puoi prendere il Metromare e in soli 3 minuti arrivare alla fermata Pascoli o Lagomaggio, entrambe vicinissime all'appartamento.",
+      trainFairTitle: "Dalla Fiera di Rimini",
+      trainFairText:
+        "Se arrivi alla Fiera di Rimini, puoi prendere l'autobus Linea 9 per raggiungere la zona dell'appartamento.",
       planeAirportTitle: "Aeroporto Federico Fellini di Rimini",
       planeAirportText:
         "Dall'aeroporto prendi il Metromare dalla fermata Miramare (proprio all'aeroporto) e scendi alla fermata Pascoli o Lagomaggio, vicinissime all'appartamento.",
-      planeFairTitle: "Dalla Fiera di Rimini",
-      planeFairText:
-        "Se atterri o arrivi alla Fiera di Rimini, puoi prendere l'autobus Linea 9 per raggiungere la zona dell'appartamento.",
       metromareEyebrow: "Trasporto consigliato",
       metromareTitle: "Metromare: la fermata è a due passi",
       metromareText:
@@ -92,13 +92,13 @@ const allTranslations = {
       s1Title: "Vicino al mare",
       s1Text: "La spiaggia è raggiungibile in pochi minuti a piedi dall'appartamento.",
       s2Title: "Posizione strategica",
-      s2Text: "Centro storico, ristoranti, negozi e locali a portata di mano.",
-      s3Title: "Wi-Fi gratuito",
-      s3Text: "Connessione Wi-Fi veloce e gratuita in tutto l'appartamento.",
+      s2Text: "Centro storico, Marina Centro, ristoranti, negozi e locali a portata di mano: il cuore della spiaggia e della movida riminese.",
+      s3Title: "Piano rialzato comodo",
+      s3Text: "L'appartamento si trova al piano rialzato: comodo e accessibile, ideale anche per anziani, bambini e persone con difficoltà motorie.",
       s4Title: "Cucina attrezzata",
       s4Text: "Cucina completa con tutti gli elettrodomestici e utensili necessari.",
-      s5Title: "Ideale per famiglie",
-      s5Text: "Spazi comodi e sicuri, pensati anche per chi viaggia con bambini.",
+      s5Title: "Parcheggio disponibile",
+      s5Text: "Possibilità di parcheggio a pagamento nelle vicinanze dell'appartamento.",
       s6Title: "Miglior prezzo garantito",
       s6Text:
         "Prenotando direttamente dal sito risparmi rispetto alle piattaforme online.",
@@ -194,10 +194,10 @@ const allTranslations = {
     },
     beachNearby: {
       eyebrow: "A due passi dal mare",
-      title: "Il mare è a 4 minuti a piedi",
+      title: "Il mare è a 5 minuti a piedi",
       description:
-        "L'appartamento Il Tulipano si trova vicinissimo al mare: in soli 4 minuti a piedi raggiungi la spiaggia. Ecco il percorso da casa fino alla costa.",
-      walkLabel: "4 min a piedi",
+        "L'appartamento Il Tulipano si trova vicinissimo al mare: in soli 5 minuti a piedi raggiungi la spiaggia. Ecco il percorso da casa fino alla costa.",
+      walkLabel: "5 min a piedi",
       fromLabel: "Dall'appartamento",
       toLabel: "Alla spiaggia",
       mapCta: "Apri il percorso su Google Maps",
@@ -229,7 +229,7 @@ const allTranslations = {
       eyebrow: "Location",
       title: "Where we are",
       intro:
-        "Il Tulipano Apartment is in a strategic position in Rimini, just steps from the sea and well connected to the historic centre.",
+        "Il Tulipano Apartment is in a strategic position in Rimini, just steps from the sea and well connected to the historic centre, the train station, Rimini Fiera, Marina Centro, the shopping centre and the airport.",
       addressTitle: "Address",
       addressValue: "Via del Tulipano 18, 47923 Rimini (RN)",
       minutesTitle: "Minutes away",
@@ -253,12 +253,12 @@ const allTranslations = {
       trainMetroTitle: "Metromare",
       trainMetroText:
         "Alternatively, from Rimini station you can take the Metromare and in just 3 minutes reach the Pascoli or Lagomaggio stop, both very close to the apartment.",
+      trainFairTitle: "From Rimini Fiera",
+      trainFairText:
+        "If you arrive at Rimini Fiera, you can take Bus Line 9 to reach the apartment area.",
       planeAirportTitle: "Federico Fellini Airport, Rimini",
       planeAirportText:
         "From the airport, take the Metromare from the Miramare stop (right at the airport) and get off at Pascoli or Lagomaggio, very close to the apartment.",
-      planeFairTitle: "From Rimini Fiera",
-      planeFairText:
-        "If you land at or arrive from Rimini Fiera, you can take Bus Line 9 to reach the apartment area.",
       metromareEyebrow: "Recommended transport",
       metromareTitle: "Metromare: the stop is just steps away",
       metromareText:
@@ -289,13 +289,13 @@ const allTranslations = {
       s1Title: "Close to the sea",
       s1Text: "The beach is just a few minutes' walk from the apartment.",
       s2Title: "Strategic location",
-      s2Text: "Historic centre, restaurants, shops and venues all within reach.",
-      s3Title: "Free Wi-Fi",
-      s3Text: "Fast and free Wi-Fi connection throughout the apartment.",
+      s2Text: "Historic centre, Marina Centro, restaurants, shops and venues all within reach: the heart of Rimini's beach and nightlife.",
+      s3Title: "Convenient raised ground floor",
+      s3Text: "The apartment is on a raised ground floor: comfortable and accessible, ideal for elderly guests, children and people with reduced mobility.",
       s4Title: "Equipped kitchen",
       s4Text: "Full kitchen with all the appliances and utensils you need.",
-      s5Title: "Ideal for families",
-      s5Text: "Comfortable and safe spaces, designed for those travelling with children.",
+      s5Title: "Parking available",
+      s5Text: "Paid parking is available near the apartment.",
       s6Title: "Best price guaranteed",
       s6Text: "Booking directly on our website saves you money compared to online platforms.",
     },
@@ -390,10 +390,10 @@ const allTranslations = {
     },
     beachNearby: {
       eyebrow: "Steps from the sea",
-      title: "The beach is 4 minutes on foot",
+      title: "The beach is 5 minutes on foot",
       description:
-        "Il Tulipano apartment is very close to the sea: just a 4-minute walk to the beach. Here's the route from the apartment to the coast.",
-      walkLabel: "4 min walk",
+        "Il Tulipano apartment is very close to the sea: just a 5-minute walk to the beach. Here's the route from the apartment to the coast.",
+      walkLabel: "5 min walk",
       fromLabel: "From the apartment",
       toLabel: "To the beach",
       mapCta: "Open route on Google Maps",
@@ -425,7 +425,7 @@ const allTranslations = {
       eyebrow: "Lage",
       title: "Wo wir sind",
       intro:
-        "Die Ferienwohnung Il Tulipano liegt in einer strategischen Lage in Rimini, nur wenige Schritte vom Meer entfernt und bestens an die Altstadt angebunden.",
+        "Die Ferienwohnung Il Tulipano liegt in einer strategischen Lage in Rimini, nur wenige Schritte vom Meer entfernt und bestens angebunden an Altstadt, Bahnhof, Messe, Marina Centro, Einkaufszentrum und Flughafen.",
       addressTitle: "Adresse",
       addressValue: "Via del Tulipano 18, 47923 Rimini (RN)",
       minutesTitle: "Wenige Minuten entfernt",
@@ -449,12 +449,12 @@ const allTranslations = {
       trainMetroTitle: "Metromare",
       trainMetroText:
         "Alternativ können Sie vom Bahnhof Rimini den Metromare nehmen und in nur 3 Minuten die Haltestelle Pascoli oder Lagomaggio erreichen, beide ganz in der Nähe der Wohnung.",
+      trainFairTitle: "Von der Messe Rimini",
+      trainFairText:
+        "Wenn Sie am Messegelände Rimini ankommen, können Sie die Buslinie 9 nehmen, um zur Wohnung zu gelangen.",
       planeAirportTitle: "Flughafen Federico Fellini, Rimini",
       planeAirportText:
         "Vom Flughafen aus nehmen Sie den Metromare an der Haltestelle Miramare (direkt am Flughafen) und steigen an Pascoli oder Lagomaggio aus, ganz in der Nähe der Wohnung.",
-      planeFairTitle: "Von der Messe Rimini",
-      planeFairText:
-        "Wenn Sie am Messegelände Rimini ankommen, können Sie die Buslinie 9 nehmen, um zur Wohnung zu gelangen.",
       metromareEyebrow: "Empfohlenes Verkehrsmittel",
       metromareTitle: "Metromare: die Haltestelle ist nur ein paar Schritte entfernt",
       metromareText:
@@ -485,13 +485,13 @@ const allTranslations = {
       s1Title: "Strandnähe",
       s1Text: "Der Strand ist in wenigen Minuten zu Fuß von der Wohnung erreichbar.",
       s2Title: "Strategische Lage",
-      s2Text: "Altstadt, Restaurants, Geschäfte und Lokale in unmittelbarer Nähe.",
-      s3Title: "Kostenloses WLAN",
-      s3Text: "Schnelles und kostenloses WLAN in der gesamten Wohnung.",
+      s2Text: "Altstadt, Marina Centro, Restaurants, Geschäfte und Lokale in unmittelbarer Nähe: das Herz des Strandes und des Nachtlebens von Rimini.",
+      s3Title: "Bequemes Hochparterre",
+      s3Text: "Die Wohnung befindet sich im Hochparterre: bequem und barrierefrei, ideal auch für ältere Gäste, Kinder und Menschen mit eingeschränkter Mobilität.",
       s4Title: "Voll ausgestattete Küche",
       s4Text: "Komplette Küche mit allen Geräten und Utensilien, die Sie brauchen.",
-      s5Title: "Ideal für Familien",
-      s5Text: "Bequeme und sichere Räume, auch für Reisende mit Kindern gedacht.",
+      s5Title: "Parkplatz verfügbar",
+      s5Text: "Kostenpflichtiger Parkplatz in der Nähe der Wohnung verfügbar.",
       s6Title: "Bestpreisgarantie",
       s6Text:
         "Wenn Sie direkt über unsere Website buchen, sparen Sie im Vergleich zu Online-Plattformen.",
@@ -587,10 +587,10 @@ const allTranslations = {
     },
     beachNearby: {
       eyebrow: "Direkt am Meer",
-      title: "Der Strand ist 4 Minuten zu Fuß entfernt",
+      title: "Der Strand ist 5 Minuten zu Fuß entfernt",
       description:
-        "Die Wohnung Il Tulipano liegt ganz nah am Meer: In nur 4 Minuten zu Fuß erreichen Sie den Strand. Hier ist der Weg von der Wohnung zur Küste.",
-      walkLabel: "4 Min. zu Fuß",
+        "Die Wohnung Il Tulipano liegt ganz nah am Meer: In nur 5 Minuten zu Fuß erreichen Sie den Strand. Hier ist der Weg von der Wohnung zur Küste.",
+      walkLabel: "5 Min. zu Fuß",
       fromLabel: "Von der Wohnung",
       toLabel: "Zum Strand",
       mapCta: "Route in Google Maps öffnen",
@@ -622,7 +622,7 @@ const allTranslations = {
       eyebrow: "Расположение",
       title: "Где мы находимся",
       intro:
-        "Апартаменты Il Tulipano находятся в стратегически удобном месте Римини, в нескольких шагах от моря и с удобным сообщением с историческим центром.",
+        "Апартаменты Il Tulipano находятся в стратегически удобном месте Римини, в нескольких шагах от моря и с удобным сообщением с историческим центром, вокзалом, выставочным центром, Marina Centro, торговым центром и аэропортом.",
       addressTitle: "Адрес",
       addressValue: "Via del Tulipano 18, 47923 Rimini (RN)",
       minutesTitle: "В нескольких минутах",
@@ -646,12 +646,12 @@ const allTranslations = {
       trainMetroTitle: "Metromare",
       trainMetroText:
         "Также с вокзала Римини можно сесть на Metromare и всего за 3 минуты доехать до остановки Pascoli или Lagomaggio — обе очень близко к квартире.",
+      trainFairTitle: "С выставочного центра Римини",
+      trainFairText:
+        "Если вы прибываете на выставочный комплекс Rimini Fiera, сядьте на автобус линии 9, чтобы добраться до района квартиры.",
       planeAirportTitle: "Аэропорт Federico Fellini, Римини",
       planeAirportText:
         "Из аэропорта сядьте на Metromare на остановке Miramare (прямо у аэропорта) и выйдите на Pascoli или Lagomaggio, очень близко к квартире.",
-      planeFairTitle: "С выставочного центра Римини",
-      planeFairText:
-        "Если вы прибываете на выставочный комплекс Rimini Fiera, сядьте на автобус линии 9, чтобы добраться до района квартиры.",
       metromareEyebrow: "Рекомендуемый транспорт",
       metromareTitle: "Metromare: остановка в двух шагах",
       metromareText:
@@ -682,13 +682,13 @@ const allTranslations = {
       s1Title: "Рядом с морем",
       s1Text: "До пляжа можно дойти пешком за несколько минут.",
       s2Title: "Удачное расположение",
-      s2Text: "Исторический центр, рестораны, магазины и заведения — всё в шаговой доступности.",
-      s3Title: "Бесплатный Wi-Fi",
-      s3Text: "Быстрый и бесплатный Wi-Fi во всей квартире.",
+      s2Text: "Исторический центр, Marina Centro, рестораны, магазины и заведения — в самом сердце пляжной жизни и развлечений Римини.",
+      s3Title: "Удобный полуэтаж",
+      s3Text: "Квартира расположена на полуэтаже: удобный и доступный вход, идеально для пожилых людей, детей и людей с ограниченной подвижностью.",
       s4Title: "Оборудованная кухня",
       s4Text: "Полностью оснащённая кухня со всей необходимой техникой и посудой.",
-      s5Title: "Идеально для семей",
-      s5Text: "Удобные и безопасные пространства, продуманные для тех, кто путешествует с детьми.",
+      s5Title: "Парковка",
+      s5Text: "Возможность платной парковки рядом с квартирой.",
       s6Title: "Лучшая цена гарантирована",
       s6Text:
         "Бронируя напрямую на нашем сайте, вы экономите по сравнению с онлайн-платформами.",
@@ -784,10 +784,10 @@ const allTranslations = {
     },
     beachNearby: {
       eyebrow: "В двух шагах от моря",
-      title: "Пляж в 4 минутах пешком",
+      title: "Пляж в 5 минутах пешком",
       description:
-        "Апартаменты Il Tulipano находятся совсем рядом с морем: всего 4 минуты пешком до пляжа. Вот маршрут от квартиры до побережья.",
-      walkLabel: "4 мин пешком",
+        "Апартаменты Il Tulipano находятся совсем рядом с морем: всего 5 минут пешком до пляжа. Вот маршрут от квартиры до побережья.",
+      walkLabel: "5 мин пешком",
       fromLabel: "От квартиры",
       toLabel: "До пляжа",
       mapCta: "Открыть маршрут в Google Maps",

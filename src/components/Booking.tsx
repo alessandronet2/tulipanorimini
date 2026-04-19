@@ -39,7 +39,7 @@ export default function Booking() {
     setSending(true);
 
     try {
-      const res = await fetch("https://formsubmit.co/ajax/Alessandronet2@libero.it", {
+      const res = await fetch("https://formsubmit.co/ajax/commerciale@tulipanorimini.it", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -66,7 +66,7 @@ export default function Booking() {
       const body = encodeURIComponent(
         `Nome: ${form.nome}\nEmail: ${form.email}\nTelefono: ${form.telefono}\nOspiti: ${form.ospiti}\nCheck-in: ${form.checkin}\nCheck-out: ${form.checkout}\nMessaggio: ${form.messaggio}`
       );
-      window.open(`mailto:Alessandronet2@libero.it?subject=${subject}&body=${body}`, "_blank");
+      window.open(`mailto:commerciale@tulipanorimini.it?subject=${subject}&body=${body}`, "_blank");
       setSubmitted(true);
     } finally {
       setSending(false);

@@ -194,6 +194,15 @@ export default function Position() {
                       <p className="text-warmGray leading-relaxed">{t.position.trainMetroText}</p>
                     </div>
                   </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-10 h-10 rounded-lg bg-teal/10 flex items-center justify-center flex-shrink-0">
+                      <span className="font-bold text-teal-dark">9</span>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-warmDark mb-1">{t.position.trainFairTitle}</h4>
+                      <p className="text-warmGray leading-relaxed">{t.position.trainFairText}</p>
+                    </div>
+                  </div>
                 </div>
               )}
 
@@ -208,15 +217,6 @@ export default function Position() {
                     <div>
                       <h4 className="font-bold text-warmDark mb-1">{t.position.planeAirportTitle}</h4>
                       <p className="text-warmGray leading-relaxed">{t.position.planeAirportText}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-teal/10 flex items-center justify-center flex-shrink-0">
-                      <span className="font-bold text-teal-dark">9</span>
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-warmDark mb-1">{t.position.planeFairTitle}</h4>
-                      <p className="text-warmGray leading-relaxed">{t.position.planeFairText}</p>
                     </div>
                   </div>
                 </div>

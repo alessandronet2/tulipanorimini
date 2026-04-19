@@ -28,7 +28,7 @@ export default function BeachNearby() {
           <FadeIn delay={0.1}>
             <div className="rounded-2xl overflow-hidden shadow-lg h-[350px] md:h-[450px]">
               <iframe
-                src="https://maps.google.com/maps?saddr=Via+del+Tulipano+26,+47923+Rimini+RN&daddr=Lungomare+Giuseppe+di+Vittorio+13,+47921+Rimini+RN&dirflg=w&hl=it&output=embed"
+                src="https://maps.google.com/maps?saddr=Via+del+Tulipano+18,+47923+Rimini+RN&daddr=Lungomare+Giuseppe+di+Vittorio+13,+47921+Rimini+RN&dirflg=w&hl=it&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -50,7 +50,7 @@ export default function BeachNearby() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                   </svg>
                 </div>
-                <div className="font-serif text-3xl text-warmDark mb-1">4 min</div>
+                <div className="font-serif text-3xl text-warmDark mb-1">5 min</div>
                 <p className="text-warmGray text-sm font-semibold">
                   {t.beachNearby.walkLabel}
                 </p>
@@ -67,7 +67,7 @@ export default function BeachNearby() {
                   <div className="flex flex-col gap-4">
                     <div>
                       <p className="text-xs text-warmGray font-semibold uppercase tracking-wider">{t.beachNearby.fromLabel}</p>
-                      <p className="text-warmDark font-bold text-sm">Via del Tulipano 26, Rimini</p>
+                      <p className="text-warmDark font-bold text-sm">Via del Tulipano 18, Rimini</p>
                     </div>
                     <div>
                       <p className="text-xs text-warmGray font-semibold uppercase tracking-wider">{t.beachNearby.toLabel}</p>
@@ -79,7 +79,7 @@ export default function BeachNearby() {
 
               {/* CTA */}
               <a
-                href="https://www.google.com/maps/dir/Via+del+Tulipano+26,+47923+Rimini+RN/Lungomare+Giuseppe+di+Vittorio+13,+47921+Rimini+RN/@44.056,12.57,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132cc4!2m2!1d12.5673!2d44.0545!1m5!1m1!1s0x132cc4!2m2!1d12.572!2d44.0575!3e2"
+                href="https://www.google.com/maps/dir/Via+del+Tulipano+18,+47923+Rimini+RN/Lungomare+Giuseppe+di+Vittorio+13,+47921+Rimini+RN/@44.056,12.57,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132cc4!2m2!1d12.5673!2d44.0545!1m5!1m1!1s0x132cc4!2m2!1d12.572!2d44.0575!3e2"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-warmDark text-white font-semibold rounded-full hover:bg-warmGray transition-colors duration-200 text-sm"

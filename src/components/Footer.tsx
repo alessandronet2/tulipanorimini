@@ -22,8 +22,8 @@ export default function Footer() {
               Via del Tulipano 18, 47923 Rimini (RN)
             </p>
             <p className="text-white/70 text-sm mt-1">
-              <a href="mailto:Alessandronet2@libero.it" className="hover:text-coral transition-colors">
-                Alessandronet2@libero.it
+              <a href="mailto:commerciale@tulipanorimini.it" className="hover:text-coral transition-colors">
+                commerciale@tulipanorimini.it
               </a>
               {" "}&middot;{" "}
               <a href="tel:+393280358409" className="hover:text-coral transition-colors">

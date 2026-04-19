@@ -37,8 +37,8 @@ export default function Contacts() {
     {
       icon: icons[1],
       label: t.contacts.email,
-      value: "Alessandronet2@libero.it",
-      href: "mailto:Alessandronet2@libero.it",
+      value: "commerciale@tulipanorimini.it",
+      href: "mailto:commerciale@tulipanorimini.it",
     },
     {
       icon: icons[2],
