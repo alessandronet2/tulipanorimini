@@ -24,18 +24,14 @@ export default function BeachNearby() {
         </FadeIn>
 
         <div className="grid md:grid-cols-[1fr,auto] gap-8 items-center">
-          {/* Map embed with walking directions */}
+          {/* Walking route image */}
           <FadeIn delay={0.1}>
-            <div className="rounded-2xl overflow-hidden shadow-lg h-[350px] md:h-[450px]">
-              <iframe
-                src="https://maps.google.com/maps?saddr=Via+del+Tulipano+18,+47923+Rimini+RN&daddr=Lungomare+Giuseppe+di+Vittorio+13,+47921+Rimini+RN&dirflg=w&hl=it&output=embed"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
+            <div className="rounded-2xl overflow-hidden shadow-lg h-[350px] md:h-[450px] bg-white">
+              <img
+                src="/images/percorso-spiaggia.jpg"
+                alt="Percorso a piedi dall'appartamento alla spiaggia - 4 minuti"
+                className="w-full h-full object-cover"
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Percorso a piedi verso il mare"
               />
             </div>
           </FadeIn>
@@ -50,7 +46,7 @@ export default function BeachNearby() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                   </svg>
                 </div>
-                <div className="font-serif text-3xl text-warmDark mb-1">5 min</div>
+                <div className="font-serif text-3xl text-warmDark mb-1">4 min</div>
                 <p className="text-warmGray text-sm font-semibold">
                   {t.beachNearby.walkLabel}
                 </p>

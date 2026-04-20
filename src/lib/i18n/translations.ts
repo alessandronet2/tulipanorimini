@@ -79,7 +79,7 @@ const allTranslations = {
       f2Text: "Ambienti pensati per farti sentire a casa fin dal primo momento.",
       f3Title: "Dotato di tutto il necessario",
       f3Text:
-        "Cucina attrezzata, biancheria, Wi-Fi e tutto ciò che serve per una vacanza senza pensieri.",
+        "Cucina attrezzata, lavatrice, microonde, climatizzatore, lenzuola e asciugamani di ricambio: tutto ciò che serve per una vacanza senza pensieri.",
       f4Title: "Ideale per famiglie e coppie",
       f4Text:
         "Un ambiente tranquillo e accogliente, perfetto per coppie in cerca di relax o famiglie con bambini.",
@@ -194,10 +194,10 @@ const allTranslations = {
     },
     beachNearby: {
       eyebrow: "A due passi dal mare",
-      title: "Il mare è a 5 minuti a piedi",
+      title: "Il mare è a 4 minuti a piedi",
       description:
-        "L'appartamento Il Tulipano si trova vicinissimo al mare: in soli 5 minuti a piedi raggiungi la spiaggia. Ecco il percorso da casa fino alla costa.",
-      walkLabel: "5 min a piedi",
+        "L'appartamento Il Tulipano si trova vicinissimo al mare: in soli 4 minuti a piedi raggiungi la spiaggia. Ecco il percorso da casa fino alla costa.",
+      walkLabel: "4 min a piedi",
       fromLabel: "Dall'appartamento",
       toLabel: "Alla spiaggia",
       mapCta: "Apri il percorso su Google Maps",
@@ -276,7 +276,7 @@ const allTranslations = {
       f2Text: "Rooms designed to make you feel at home from the very first moment.",
       f3Title: "Everything you need",
       f3Text:
-        "Equipped kitchen, linen, Wi-Fi and everything you need for a worry-free holiday.",
+        "Equipped kitchen, washing machine, microwave, air conditioning, spare sheets and towels: everything you need for a worry-free holiday.",
       f4Title: "Ideal for families and couples",
       f4Text:
         "A quiet and welcoming environment, perfect for couples seeking relaxation or families with children.",
@@ -390,10 +390,10 @@ const allTranslations = {
     },
     beachNearby: {
       eyebrow: "Steps from the sea",
-      title: "The beach is 5 minutes on foot",
+      title: "The beach is 4 minutes on foot",
       description:
-        "Il Tulipano apartment is very close to the sea: just a 5-minute walk to the beach. Here's the route from the apartment to the coast.",
-      walkLabel: "5 min walk",
+        "Il Tulipano apartment is very close to the sea: just a 4-minute walk to the beach. Here's the route from the apartment to the coast.",
+      walkLabel: "4 min walk",
       fromLabel: "From the apartment",
       toLabel: "To the beach",
       mapCta: "Open route on Google Maps",
@@ -472,7 +472,7 @@ const allTranslations = {
       f2Text: "Räume, in denen Sie sich vom ersten Moment an wie zu Hause fühlen.",
       f3Title: "Mit allem Notwendigen ausgestattet",
       f3Text:
-        "Voll ausgestattete Küche, Bettwäsche, WLAN und alles, was Sie für einen sorglosen Urlaub brauchen.",
+        "Voll ausgestattete Küche, Waschmaschine, Mikrowelle, Klimaanlage, Ersatz-Bettwäsche und -Handtücher: alles, was Sie für einen sorglosen Urlaub brauchen.",
       f4Title: "Ideal für Familien und Paare",
       f4Text:
         "Eine ruhige und einladende Umgebung, perfekt für Paare auf der Suche nach Entspannung oder Familien mit Kindern.",
@@ -587,10 +587,10 @@ const allTranslations = {
     },
     beachNearby: {
       eyebrow: "Direkt am Meer",
-      title: "Der Strand ist 5 Minuten zu Fuß entfernt",
+      title: "Der Strand ist 4 Minuten zu Fuß entfernt",
       description:
-        "Die Wohnung Il Tulipano liegt ganz nah am Meer: In nur 5 Minuten zu Fuß erreichen Sie den Strand. Hier ist der Weg von der Wohnung zur Küste.",
-      walkLabel: "5 Min. zu Fuß",
+        "Die Wohnung Il Tulipano liegt ganz nah am Meer: In nur 4 Minuten zu Fuß erreichen Sie den Strand. Hier ist der Weg von der Wohnung zur Küste.",
+      walkLabel: "4 Min. zu Fuß",
       fromLabel: "Von der Wohnung",
       toLabel: "Zum Strand",
       mapCta: "Route in Google Maps öffnen",
@@ -669,7 +669,7 @@ const allTranslations = {
       f2Text: "Помещения, в которых вы почувствуете себя как дома с первой минуты.",
       f3Title: "Всё необходимое",
       f3Text:
-        "Оборудованная кухня, бельё, Wi-Fi и всё необходимое для отдыха без забот.",
+        "Оборудованная кухня, стиральная машина, микроволновая печь, кондиционер, запасное бельё и полотенца — всё необходимое для отдыха без забот.",
       f4Title: "Идеально для семей и пар",
       f4Text:
         "Тихая и уютная обстановка — идеально для пар, ищущих расслабления, или семей с детьми.",
@@ -784,10 +784,10 @@ const allTranslations = {
     },
     beachNearby: {
       eyebrow: "В двух шагах от моря",
-      title: "Пляж в 5 минутах пешком",
+      title: "Пляж в 4 минутах пешком",
       description:
-        "Апартаменты Il Tulipano находятся совсем рядом с морем: всего 5 минут пешком до пляжа. Вот маршрут от квартиры до побережья.",
-      walkLabel: "5 мин пешком",
+        "Апартаменты Il Tulipano находятся совсем рядом с морем: всего 4 минуты пешком до пляжа. Вот маршрут от квартиры до побережья.",
+      walkLabel: "4 мин пешком",
       fromLabel: "От квартиры",
       toLabel: "До пляжа",
       mapCta: "Открыть маршрут в Google Maps",
