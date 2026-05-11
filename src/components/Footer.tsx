@@ -41,6 +41,12 @@ export default function Footer() {
             </p>
           </div>
         </div>
+
+        <div className="mt-8 pt-6 border-t border-white/10 text-center">
+          <p className="text-white/40 text-xs tracking-wider">
+            CIN: IT099014C2UFTOZ9ZV
+          </p>
+        </div>
       </div>
     </footer>
   );
